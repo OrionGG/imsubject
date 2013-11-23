@@ -73,9 +73,10 @@ for i = 1:niter
 
 %  Las siguientes líneas permiten ver la progresión de las imágenes
 
-  subplot(ceil(sqrt(niter)),ceil(sqrt(niter)), i)
-  imagesc(imdif), colormap(gray), axis image
+  %subplot(ceil(sqrt(niter)),ceil(sqrt(niter)), i)
+  %imagesc(imdif), colormap(gray), axis image
 
+end
 end
 
 
